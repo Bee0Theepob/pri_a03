@@ -6,16 +6,18 @@ export default function ProductCard() {
     <div className={styles.card}>
       <div className={styles.cardimg}>
         <Image
-          src={"/img/cover.jpg"}
+          src={"/img/room1.jpg"}
           alt="cover"
           fill={true}
           objectFit="cover"
         />
       </div>
-      <div className={styles.catdtext}>The Bloom Pavilion</div>
-      <div>
-        A stunning bouquet hall where love blossoms and unforgettable memories
-        are made
+      <div className={styles.cardtext}>
+        The Bloom Pavilion
+        <div>
+          A stunning bouquet hall where love blossoms and unforgettable memories
+          are made
+        </div>
       </div>
     </div>
   );
